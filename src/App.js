@@ -29,8 +29,8 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
+        <HeroSection />
       </Router>
-      <HeroSection />
     </>
   );
 }

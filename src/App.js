@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavMenu from './components/NavMenu';
-import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import HeroSection from './components/HeroSection';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
 
 export default function App() {
   return (
@@ -16,20 +15,16 @@ export default function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/about">
-            <About />
+          <Route path="/projects">
+            <Projects />
           </Route>
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
-        <HeroSection />
       </Router>
     </>
   );

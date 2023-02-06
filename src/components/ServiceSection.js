@@ -36,8 +36,8 @@ export default function ServicesSection() {
           />
           <ServicesSectionItem
             icon={<MdCode />}
-            title="web dev"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            title="Backend"
+            desc="I also develop the websites for  storing and organizing data, and ensuring everything on the client-side actually works."
           />
         </div>
       </div>

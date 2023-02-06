@@ -7,21 +7,22 @@ const projects = [
   {
     id: uuidv4(),
     name: 'ELearning Website',
-    desc: 'An ELearning responsive website using HTML, CSS, JAVASCRIPT',
+    desc:
+      'Electronic learning, is the delivery of leacrning and training through digital resources. ',
     img: ELearningImg,
   },
   {
     id: uuidv4(),
     name: 'WeatherApp',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
+      'The weather app provides weather conditions, relative humidity, dew point, wind speed and direction, and hourly weather forecast.',
     img: WeatherApp,
   },
   {
     id: uuidv4(),
     name: 'Netflix',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'Netflix is the biggest video streaming platform in the world, offering movies, seasons, biographies, reality shows, and more.',
     img: Netflix,
   },
 ];

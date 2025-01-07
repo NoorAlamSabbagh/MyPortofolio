@@ -1,3 +1,3 @@
 # MyPortofolio
 I created my portfoilio website using react
-https://cute-gecko-4f51b9.netlify.app/contact
+https://cool-granita-8e6b85.netlify.app/
